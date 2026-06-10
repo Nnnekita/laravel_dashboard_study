@@ -15,6 +15,17 @@
 
 <p style="color: green; font-weight: bold;">✅ Данный проект использует Tailwind v4!</p>
 
+> Инструкция ниже — для тех, у кого ещё нет проекта.  
+> Если у тебя уже есть свой проект, просто скопируй нужные файлы:
+> - `app/Models/Category.php`, `app/Models/Post.php` — модели
+> - `app/Http/Controllers/Admin/` — контроллеры (CategoryController, PostController)
+> - `app/Http/Middleware/AdminMiddleware.php` — middleware для админки
+> - `resources/views/admin/` — Blade-шаблоны (categories, posts)
+> - `database/migrations/` — миграции (без файлов Breeze)
+> - `resources/views/layouts/navigation.blade.php` — строки с админ-ссылками
+> - `routes/web.php` — строки с админ-роутами
+> - `bootstrap/app.php` — строку с регистрацией AdminMiddleware
+
 ### 1. Клонировать репозиторий
 
 Зайди в свою папку через терминал:

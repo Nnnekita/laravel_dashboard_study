@@ -2,7 +2,7 @@
 
 Учебный проект — блог про аппаратные комплектующие персональных компьютеров.
 
-**Стек:** Laravel 13, Breeze (Blade), Tailwind CSS v3, SQLite/MySQL
+**Стек:** Laravel 13, Breeze (Blade), Tailwind CSS v4, SQLite/MySQL
 
 ## Функционал
 
@@ -13,7 +13,7 @@
 
 ## Установка
 
-<p style="color: red; font-weight: bold;">⚠️ Осторожно: на данном этапе шаблоны написаны на Tailwind v3!</p>
+<p style="color: green; font-weight: bold;">✅ Данный проект использует Tailwind v4!</p>
 
 ### 1. Клонировать репозиторий
 

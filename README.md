@@ -20,71 +20,37 @@ git clone https://github.com/Nnnekita/laravel_dashboard_study.git
 cd laravel_dashboard_study
 ```
 
-### 2. Настроить окружение
-
-```bash
-cp .env.example .env
-```
-
-При необходимости измени настройки базы данных в `.env`.  
-По умолчанию используется SQLite — установка не требуется.
-
-### 3. Установить зависимости PHP
+### 2. Установить зависимости PHP
 
 ```bash
 composer install
 ```
 
-### 4. Сгенерировать ключ приложения
-
-```bash
-php artisan key:generate
-```
-
-### 5. Создать базу данных
-
-**SQLite** (по умолчанию):
-
-```bash
-touch database/database.sqlite
-```
-
-**MySQL** — создай базу и укажи в `.env`:
-
-```
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=laravel_dashboard
-DB_USERNAME=root
-DB_PASSWORD=
-```
-
-### 6. Выполнить миграции
+### 3. Выполнить миграции
 
 ```bash
 php artisan migrate
 ```
 
-### 7. Установить frontend-зависимости
+### 4. Установить frontend-зависимости
 
 ```bash
 npm install
 ```
 
-### 8. Собрать frontend
+### 5. Собрать frontend
 
 ```bash
 npm run build
 ```
 
-### 9. Создать симлинк для изображений
+### 6. Создать симлинк для изображений
 
 ```bash
 php artisan storage:link
 ```
 
-### 10. Запустить
+### 7. Запустить
 
 ```bash
 php artisan serve

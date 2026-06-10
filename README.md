@@ -26,31 +26,35 @@ cd laravel_dashboard_study
 composer install
 ```
 
-### 3. Выполнить миграции
+### 3. Настроить окружение
+
+Переименуйте `.env.example` в `.env` и вставьте свои настройки базы данных.
+
+### 4. Выполнить миграции
 
 ```bash
 php artisan migrate
 ```
 
-### 4. Установить frontend-зависимости
+### 5. Установить frontend-зависимости
 
 ```bash
 npm install
 ```
 
-### 5. Собрать frontend
+### 6. Собрать frontend
 
 ```bash
 npm run build
 ```
 
-### 6. Создать симлинк для изображений
+### 7. Создать симлинк для изображений
 
 ```bash
 php artisan storage:link
 ```
 
-### 7. Запустить
+### 8. Запустить
 
 ```bash
 php artisan serve

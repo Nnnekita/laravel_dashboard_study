@@ -17,6 +17,14 @@
 
 ### 1. Клонировать репозиторий
 
+Открой терминал, перейди в папку, где будут храниться твои проекты:
+
+```bash
+cd ~/Projects
+```
+
+Склонируй репозиторий и перейди в него:
+
 ```bash
 git clone https://github.com/Nnnekita/laravel_dashboard_study.git
 cd laravel_dashboard_study

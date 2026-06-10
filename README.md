@@ -1,8 +1,8 @@
-# Блог о комплектующих ПК
+# Laravel Dashboard
 
-Учебный проект — блог про аппаратные комплектующие персональных компьютеров.
+Учебный проект.
 
-**Стек:** Laravel 13, Breeze (Blade), Tailwind CSS v4, SQLite/MySQL
+**Стек:** Laravel 13, Breeze (Blade), Tailwind CSS v4, SQLite/MySQL/PhpMyAdmin
 
 ## Функционал
 

@@ -91,7 +91,7 @@ php artisan serve
 php artisan tinker
 ```
 
-```php
+```php (Печатать в строке по порядку!)
 $user = User::first();
 $user->is_admin = true;
 $user->save();

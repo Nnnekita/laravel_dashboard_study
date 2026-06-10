@@ -16,7 +16,7 @@
 <p style="color: green; font-weight: bold;">✅ Данный проект использует Tailwind v4!</p>
 
 > Инструкция ниже — для тех, у кого ещё нет проекта.  
-> Если у тебя уже есть свой проект, просто скопируй нужные файлы:
+> Если у тебя уже есть свой проект, прочитай строчки кода в этом гит проекте или скопируй нужные тебе файлы:
 > - `app/Models/Category.php`, `app/Models/Post.php` — модели
 > - `app/Http/Controllers/Admin/` — контроллеры (CategoryController, PostController)
 > - `app/Http/Middleware/AdminMiddleware.php` — middleware для админки

@@ -17,17 +17,16 @@
 
 ### 1. Клонировать репозиторий
 
-Открой терминал, перейди в папку, где будут храниться твои проекты:
+Зайди в свою папку через терминал:
 
 ```bash
-cd ~/Projects
+cd название_папки
 ```
 
-Склонируй репозиторий и перейди в него:
+Склонируй репозиторий в текущую папку:
 
 ```bash
-git clone https://github.com/Nnnekita/laravel_dashboard_study.git
-cd laravel_dashboard_study
+git clone https://github.com/Nnnekita/laravel_dashboard_study.git .
 ```
 
 ### 2. Установить зависимости PHP

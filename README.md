@@ -90,7 +90,7 @@ php artisan serve
 ```bash
 php artisan tinker
 ```
-Печатать в терминале по порядку!
+Напечатал одну строку и сразу Enter!
 ```php 
 $user = User::first();
 $user->is_admin = true;
